@@ -362,7 +362,7 @@ p {
 }
 
 .top-180 {
-  margin-top: 64px;
+  /* margin-top: 64px; */
   background-color: #f3f3f3;
   position: relative;
 }
@@ -412,7 +412,7 @@ p {
 
 .box .empty-space {
   background-color: #f3f3f3;
-  background-image: url(../img/img11.png);
+  background-image: url(../img/do3.jpg);
 }
 
 .box .image {
