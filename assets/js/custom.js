@@ -311,7 +311,7 @@ function createHomepageGoogleMap(_latitude,_longitude){
       event.preventDefault(); // Prevent reload
       var formData = new FormData(this);
       formData.append("service_id", "service_p4791wf");
-        formData.append("template_id", "template_gj9jgos");
+        formData.append("template_id", "template_ypp1tqh");
         formData.append("user_id", "zGu9y_PxJpGQAEQkq");
 
       $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
@@ -353,7 +353,7 @@ function createHomepageGoogleMap(_latitude,_longitude){
       event.preventDefault(); 
       var formData = new FormData(this);
       formData.append('service_id', 'service_p4791wf');
-      formData.append('template_id', 'template_gj9jgos');
+      formData.append('template_id', 'template_ypp1tqh');
       formData.append('user_id', 'zGu9y_PxJpGQAEQkq');
 
       $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
