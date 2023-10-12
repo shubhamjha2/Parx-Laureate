@@ -593,7 +593,8 @@ p {
   font-variant: normal;
   line-height: 1;
   text-transform: none;
-  color: #017420;;
+  color: #017420;
+  ;
   content: "\f05d";
   font-size: 24px;
   margin-right: 15px;
@@ -1795,7 +1796,8 @@ img.main1 {
   margin: 10px;
   filter: invert(24%) sepia(40%) saturate(1831%) hue-rotate(91deg) brightness(86%) contrast(108%);
 }
-.text{
+
+.text {
   color: #005205;
 }
 
@@ -1804,6 +1806,7 @@ img.main1 {
     height: 389px;
   }
 }
+
 /* 
 @media (max-width: 768px) {
   .contact-form-containerxx {
@@ -1845,4 +1848,86 @@ img.main1 {
     bottom: 20px;
     right: 18px;
   }
+}
+
+.amenities-container {
+  padding-top: 100px;
+  background-color: #f3f3f3;
+  padding-bottom: 20px;
+}
+
+.amenities-container .custom-heading {
+  font-family: Syne-Bold, sans-serif;
+  color: black;
+  font-size: 60px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.amenities-container p {
+  color: black;
+}
+
+.amenities-container .left-col {
+  position: relative;
+}
+
+/* .amenities-container .left-col .left-amenities-img {
+  padding-top: 30px;
+  max-width: 900px;
+  position: relative;
+  left: -23%;
+} */
+
+.amenities-container .left-col .sub-heading-top {
+  font-family: "Syne-SemiBold";
+  border-bottom: 1px solid #fff;
+  width: fit-content;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+
+.amenities-container-box .amenities-img {
+  width: auto;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.amenities-container-box p {
+  font-size: 19px;
+  font-family: "Syne-SemiBold";
+  letter-spacing: 0.5px;
+}
+
+.amenities-container-box {
+  display: flex;
+  filter: invert(24%) sepia(40%) saturate(1831%) hue-rotate(91deg) brightness(86%) contrast(108%);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amenities-container-box .amenity-box {
+  width: calc(47%);
+  margin-bottom: 40px;
+  padding: 25px;
+  border: 1px solid #2e2e2e;
+}
+
+.amenities-container-box .amenity-p-content {
+  font-size: 14px;
+  margin-top: 20px;
+  color: black;
+}
+
+.amenities-container {
+  padding-top: 100px;
+  background-color: #f3f3f3;
+  padding-bottom: 20px;
+}
+
+.spaiage img {
+  max-width: 100%;
+  height: auto;
 }
