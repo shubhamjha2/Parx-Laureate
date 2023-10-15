@@ -310,9 +310,9 @@ function createHomepageGoogleMap(_latitude,_longitude){
     $("#contact-form-myForm").on("submit", function (event) {
       event.preventDefault(); // Prevent reload
       var formData = new FormData(this);
-      formData.append("service_id", "service_p4791wf");
-        formData.append("template_id", "template_ypp1tqh");
-        formData.append("user_id", "zGu9y_PxJpGQAEQkq");
+      formData.append("service_id", "service_qy7bah7");
+        formData.append("template_id", "template_tqpw7te");
+        formData.append("user_id", "tj60HAIvNrhB7HapK");
 
       $.ajax("https://api.emailjs.com/api/v1.0/email/send-form", {
         type: "POST",
@@ -334,9 +334,9 @@ function createHomepageGoogleMap(_latitude,_longitude){
 //   $('#myForm').on('submit', function (event) {
 //       event.preventDefault(); // Prevent reload
 //       var formData = new FormData(this);
-//       formData.append('service_id', 'service_p4791wf');
+//       formData.append('service_id', 'service_qy7bah7');
 //       formData.append('template_id', 'template_vrz491k');
-//       formData.append('user_id', 'zGu9y_PxJpGQAEQkq');
+//       formData.append('user_id', 'tj60HAIvNrhB7HapK');
 
 //       $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
 //           type: 'POST',
@@ -352,9 +352,9 @@ function createHomepageGoogleMap(_latitude,_longitude){
   $('#myForm1').on('submit', function (event) {
       event.preventDefault(); 
       var formData = new FormData(this);
-      formData.append('service_id', 'service_p4791wf');
-      formData.append('template_id', 'template_ypp1tqh');
-      formData.append('user_id', 'zGu9y_PxJpGQAEQkq');
+      formData.append('service_id', 'service_qy7bah7');
+      formData.append('template_id', 'template_tqpw7te');
+      formData.append('user_id', 'tj60HAIvNrhB7HapK');
 
       $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
           type: 'POST',
